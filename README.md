@@ -7,10 +7,10 @@
 
 ### Other ###
 
-#### problem not handle yet ####
+- #### problem not handle yet ####
 1. When user add new customer with input birthday, the date picker will be displayed.
 2. ...
 
-#### Video demo automated on sauceLabs ####
+- #### Video demo automated on sauceLabs ####
 https://drive.google.com/drive/folders/1UXbeQaycUBjJf9J8bPIxrjX2zJ7cGS3p?usp=sharing
 
