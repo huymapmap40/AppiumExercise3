@@ -1,0 +1,11 @@
+{
+  "browserName": "Chrome",
+  "platformName": "Android",
+  "platformVersion": "7.0",
+  "deviceName": "Samsung Galaxy S6 GoogleAPI Emulator",
+  "deviceOrientation  ": "portrait",
+  "appiumVersion": "1.9.1",
+  "build": "Mobile Test - Java-TestNG-Appium",
+  "name": "Test Name on SauceLabs",
+  "remoteAddress": "http://ondemand.saucelabs.com:80/wd/hub"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Login page scenarios" skipped="0" tests="1" time="5.36" timestamp="2019-05-16T17:29:58.404+07:00[Asia/Bangkok]"><testcase name="User is not allowed to login with invalid credentials"><failure message="The page object class pages.WordPressLoginPage looks dodgy:&#10;Failed to instantiate page (net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.remote.RemoteWebDriver)" type="net.thucydides.core.pages.WrongPageError">The page object class pages.WordPressLoginPage looks dodgy:
+Failed to instantiate page (net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.remote.RemoteWebDriver)</failure><system-err>The page object class pages.WordPressLoginPage looks dodgy:
+Failed to instantiate page (net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.remote.RemoteWebDriver)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+✽.User is on login page(src/test/java/resources/features/invalid_login.feature:5)&#13;
+</system-err></testcase></testsuite>

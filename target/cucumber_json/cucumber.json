@@ -1,0 +1,57 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is not allowed to login with invalid credentials",
+        "description": "",
+        "id": "login-page-scenarios;user-is-not-allowed-to-login-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "net.thucydides.core.pages.WrongPageError: The page object class pages.WordPressLoginPage looks dodgy:\nFailed to instantiate page (net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.remote.RemoteWebDriver)\r\n\tat net.thucydides.core.pages.Pages.thisPageObjectLooksDodgy(Pages.java:293)\r\n\tat net.thucydides.core.pages.Pages.getCurrentPageOfType(Pages.java:219)\r\n\tat net.thucydides.core.pages.Pages.getPage(Pages.java:90)\r\n\tat net.thucydides.core.steps.PageObjectDependencyInjector.instantiatePageObjectIfNotAssigned(PageObjectDependencyInjector.java:55)\r\n\tat net.thucydides.core.steps.PageObjectDependencyInjector.injectDependenciesInto(PageObjectDependencyInjector.java:33)\r\n\tat net.thucydides.core.steps.StepFactory.injectOtherDependenciesInto(StepFactory.java:165)\r\n\tat net.thucydides.core.steps.StepFactory.instantiateNewStepLibraryFor(StepFactory.java:155)\r\n\tat net.thucydides.core.steps.StepFactory.instantiateNewStepLibraryFor(StepFactory.java:138)\r\n\tat net.thucydides.core.steps.StepFactory.getNewStepLibraryFor(StepFactory.java:85)\r\n\tat net.thucydides.core.steps.IndividualInstancesByDefaultStepCreationStrategy.initiateStepsFor(IndividualInstancesByDefaultStepCreationStrategy.java:16)\r\n\tat net.thucydides.core.steps.StepAnnotations.instantiateAnyUnitiaializedSteps(StepAnnotations.java:75)\r\n\tat net.thucydides.core.steps.StepAnnotations.instanciateScenarioStepFields(StepAnnotations.java:59)\r\n\tat net.thucydides.core.steps.StepAnnotations.injectScenarioStepsInto(StepAnnotations.java:41)\r\n\tat net.serenitybdd.core.Serenity.injectScenarioStepsInto(Serenity.java:135)\r\n\tat net.serenitybdd.core.Serenity.initializeWithNoStepListener(Serenity.java:101)\r\n\tat cucumber.runtime.SerenityObjectFactory.newInstance(SerenityObjectFactory.java:68)\r\n\tat cucumber.runtime.SerenityObjectFactory.cacheNewInstance(SerenityObjectFactory.java:51)\r\n\tat cucumber.runtime.SerenityObjectFactory.getInstance(SerenityObjectFactory.java:41)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)\r\n\tat cucumber.api.TestStep.executeStep(TestStep.java:102)\r\n\tat cucumber.api.TestStep.run(TestStep.java:83)\r\n\tat cucumber.api.TestCase.run(TestCase.java:58)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:80)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:99)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:41)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:108)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n\tat ✽.User is on login page(src/test/java/resources/features/invalid_login.feature:5)\r\n",
+              "duration": 4709408372,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "WordPressLoginScenarioSteps.gotoLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter invalid credentials",
+            "match": {
+              "location": "WordPressLoginScenarioSteps.enterInvalidData()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User is shown error message",
+            "match": {
+              "location": "WordPressLoginScenarioSteps.checkErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login page scenarios",
+    "description": "",
+    "id": "login-page-scenarios",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/features/invalid_login.feature"
+  }
+]
